@@ -2,8 +2,6 @@
   "expo": {
     "name": "ANDROID",
     "slug": "ANDROID",
-      // "name": "MyLoginApp",
-    // "slug": "my-login-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -14,6 +12,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.anish.myloginapp",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -21,9 +20,7 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false,
-      // "package": "com.anishmetha.ANDROID"
-      "package": "com.anish.myloginapp"
+      "predictiveBackGestureEnabled": false
     },
     "web": {
       "output": "static",
@@ -37,10 +34,7 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff",
-          "dark": {
-            "backgroundColor": "#000000"
-          }
+          "backgroundColor": "#ffffff"
         }
       ]
     ],
