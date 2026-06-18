@@ -2,9 +2,9 @@
   "expo": {
     "name": "ANDROID",
     "slug": "ANDROID",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/images/Firefly_Gemini Flash_Create a modern minimalist logo for a running tracker mobile application named RunMas 184404.png",
+    "icon": "./assets/images/Firefly.png",
     "scheme": "android",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
