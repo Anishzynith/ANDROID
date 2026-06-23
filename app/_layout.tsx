@@ -2,7 +2,7 @@
 // import '@/global.css';
 
 // export default function RootLayout() {
-//   return <Stack />;
+//   re turn <Stack />;
 // }
 import { Stack } from "expo-router";
 

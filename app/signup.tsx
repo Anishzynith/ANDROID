@@ -1,10 +1,10 @@
 import { router } from "expo-router";
 import {
-    StyleSheet,
-    Text,
-    TextInput,
-    TouchableOpacity,
-    View,
+  StyleSheet,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
 } from "react-native";
 
 export default function Signup() {
@@ -13,7 +13,14 @@ export default function Signup() {
       <Text style={styles.title}>
         Sign Up
       </Text>
-
+      <TextInput
+        placeholder="First Name"
+        style={styles.input}/>
+ 
+      <TextInput
+        placeholder="Last Name"
+        style={styles.input}/>
+        
       <TextInput
         placeholder="Username"
         style={styles.input}

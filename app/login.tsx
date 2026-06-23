@@ -1,13 +1,13 @@
-import React from "react";
+import { AntDesign, Ionicons } from "@expo/vector-icons";
 import { router } from "expo-router";
+import React from "react";
 import {
-  View,
+  StyleSheet,
   Text,
   TextInput,
   TouchableOpacity,
-  StyleSheet,
+  View,
 } from "react-native";
-import { AntDesign, Ionicons } from "@expo/vector-icons";
 
 export default function Login() {
   return (
@@ -83,7 +83,10 @@ export default function Login() {
       </TouchableOpacity>
 
       {/* Login Button */}
-      <TouchableOpacity style={styles.button}>
+      <TouchableOpacity
+  style={styles.button}
+  onPress={() => router.replace("/home")}
+>
         <Text style={styles.buttonText}>
           Login
         </Text>
